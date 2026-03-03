@@ -14,3 +14,13 @@ build/
 
 # Logs
 *.log
+# Spring Boot config
+**/src/main/resources/application.yml
+**/src/main/resources/application.properties
+
+# Build outputs
+**/target/
+
+# Env / keys
+.env
+*.pem
